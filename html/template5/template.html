@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>FUTSAL CORPORATE</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<div class="center-div">
+    {{#team1}}
+    <div class="{{className}}"><div class="joueur">{{.}}</div></div>
+    {{/team1}}
+    {{#team2}}
+    <div class="{{className}}"><div class="joueur">{{.}}</div></div>
+    {{/team2}}
+</div>
+</body>
+</html>

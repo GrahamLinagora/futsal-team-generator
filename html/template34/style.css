@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  background:#ececec;
+  font-family: sans-serif;
+}
+.titre{
+  text-align : center;
+  font-size: 32px;
+  font-weight:bold;
+}
+.joueur{
+  width:100px;
+  position: absolute;
+  bottom:0;
+  font-weight:bold;
+  color:white;
+  text-align:center;
+}
+.center-div
+{
+  width: 360px;
+  height: 530px;
+  background: url("fond.png")no-repeat 0 30px transparent;
+}
+.poste1_0
+{
+  position: absolute;
+  top: 60px;
+  left: 130px;
+  width: 100px;
+  height: 80px;
+  background: url("poste1.png")no-repeat 0 0 transparent;
+}
+.poste1_1
+{
+  position: absolute;
+  top: 120px;
+  left: 35px;
+  width: 100px;
+  height: 80px;
+  background: url("poste2.png")no-repeat 0 0 transparent;
+}
+.poste1_2
+{
+  position: absolute;
+  top: 120px;
+  left: 225px;
+  width: 100px;
+  height: 80px;
+  background: url("poste3.png")no-repeat 0 0 transparent;
+}
+.poste1_3
+{
+  position: absolute;
+  top: 180px;
+  left: 130px;
+  width: 100px;
+  height: 80px;
+  background: url("poste4.png")no-repeat 0 0 transparent;
+}
+.poste2_0
+{
+  position: absolute;
+  top: 290px;
+  left: 130px;
+  width: 100px;
+  height: 80px;
+  background: url("poste5.png")no-repeat 0 0 transparent;
+}
+.poste2_1
+{
+  position: absolute;
+  top: 350px;
+  left: 35px;
+  width: 100px;
+  height: 80px;
+  background: url("poste6.png")no-repeat 0 0 transparent;
+}
+.poste2_2
+{
+  position: absolute;
+  top: 350px;
+  left: 225px;
+  width: 100px;
+  height: 80px;
+  background: url("poste7.png")no-repeat 0 0 transparent;
+}
+.poste2_3
+{
+  position: absolute;
+  top: 410px;
+  left: 130px;
+  width: 100px;
+  height: 80px;
+  background: url("poste8.png")no-repeat 0 0 transparent;
+}
